@@ -1,3 +1,8 @@
+"""
+Ghost Method (動的なメソッド呼び出し)
+"""
+
+
 class DynamicProxy(object):
     def __init__(self, value):
         self._value = value
